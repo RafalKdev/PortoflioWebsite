@@ -1,0 +1,22 @@
+/*Global css*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  min-height: 100vh;
+  font-family: "Reddit Mono", monospace;
+  font-size: 62.5%;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #1f2833;
+  --secondary-color: #66fcf1;
+  --third-color: #c5c6c7;
+  --fourth-color: #45a29e;
+}
