@@ -1,0 +1,25 @@
+img {
+  width: 40rem;
+  height: 60rem;
+  border-radius: 75px;
+  border: 10px solid var(--secondary-color);
+}
+.heroButton {
+  font-size: 1.6rem;
+  padding: 1.4rem 3.2rem;
+  border-radius: 4px;
+  color: var(--third-color);
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid var(--third-color);
+  background-color: #1f2833;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.heroButton:hover {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  border: 2px solid var(--secondary-color);
+}
