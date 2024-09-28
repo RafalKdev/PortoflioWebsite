@@ -1,25 +1,55 @@
 img {
   width: 40rem;
-  height: 60rem;
+  height: 55rem;
   border-radius: 75px;
-  border: 10px solid var(--secondary-color);
+  border: 35px solid var(--secondary-color);
 }
+.heroSection {
+  display: flex;
+  margin: 5rem 5rem;
+  padding: 6rem;
+  justify-content: space-evenly;
+}
+.heroSectionContent {
+  margin-top: 5rem;
+}
+
 .heroButton {
+  margin-top: 3rem;
   font-size: 1.6rem;
   padding: 1.4rem 3.2rem;
-  border-radius: 4px;
-  color: var(--third-color);
+  border-radius: 10px;
+  color: var(--secondary-color);
   font-weight: 600;
   line-height: 24px;
   cursor: pointer;
   text-align: center;
-  border: 1px solid var(--third-color);
+  border: 1px solid var(--secondary-color);
   background-color: #1f2833;
-  transition: 0.3s;
+  transition: 0.5s ease-in-out;
   text-transform: uppercase;
 }
 .heroButton:hover {
-  color: var(--secondary-color);
+  font-weight: bold;
   font-size: 2rem;
-  border: 2px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
+  transform: scale(1.2);
+  color: var(--third-color);
+}
+.heroSectionTitle {
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+  color: var(--third-color);
+}
+.heroSectionText {
+  margin-bottom: 2rem;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 6.6rem;
+  color: var(--secondary-color);
+}
+.heroSectionDescription {
+  font-size: 2.4rem;
+  color: var(--third-color);
+  margin-bottom: 2rem;
 }
