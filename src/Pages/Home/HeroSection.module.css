@@ -53,3 +53,13 @@ img {
   color: var(--third-color);
   margin-bottom: 2rem;
 }
+@media (max-width: 768px) {
+  .heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heroButton {
+    margin-bottom: 2rem;
+  }
+}
