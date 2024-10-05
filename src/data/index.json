@@ -1,0 +1,22 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/react.png",
+      "title": "Front-End",
+      "description": "Proficient in HTML, CSS, and JavaScript (React.js), with a strong emphasis on creating responsive and accessible user interfaces."
+    },
+    {
+      "id": 2,
+      "src": "./img/js.png",
+      "title": "Front-End",
+      "description": "Proficient in HTML, CSS, and JavaScript (React.js), with a strong emphasis on creating responsive and accessible user interfaces."
+    },
+    {
+      "id": 2,
+      "src": "./img/git.png",
+      "title": "Front-End",
+      "description": "Proficient in HTML, CSS, and JavaScript (React.js), with a strong emphasis on creating responsive and accessible user interfaces."
+    }
+  ]
+}
