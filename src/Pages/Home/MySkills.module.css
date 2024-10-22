@@ -1,0 +1,41 @@
+.skillsSection {
+  text-align: center;
+  padding: 3.5rem;
+  margin: 2.5rem;
+}
+
+.skillsHeaderTitle {
+  font-size: 3.5rem;
+  margin-bottom: 3.5rem;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.skillsContainer {
+  display: flex;
+  margin: 3rem;
+  padding: 4rem 3.5rem;
+}
+.skillsSectionCard {
+  width: 100%;
+}
+.cardContent {
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.cardContent h3 {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.cardContent p {
+  font-size: 2rem;
+  color: var(--third-color);
+}
+@media (max-width: 768px) {
+  .skillsHeaderTitle {
+    margin-left: 15rem;
+  }
+}
