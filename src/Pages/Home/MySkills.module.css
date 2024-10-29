@@ -34,8 +34,33 @@
   font-size: 2rem;
   color: var(--third-color);
 }
+
+@media (max-width: 992px) {
+  .skillsSection {
+    width: 100%;
+  }
+  .skillsHeaderTitle {
+    font-size: 4rem;
+    align-items: center;
+  }
+}
 @media (max-width: 768px) {
   .skillsHeaderTitle {
-    margin-left: 15rem;
+    margin-left: 10rem;
+  }
+  .skillsContainer {
+    margin-left: -1rem;
+  }
+}
+@media (max-width: 576px) {
+  .skillsSectionCard {
+    margin: -2rem;
+  }
+  .skillsHeaderTitle {
+    font-size: 6rem;
+    margin-left: 22rem;
+  }
+  .cardContent p {
+    font-size: 2.5rem;
   }
 }
