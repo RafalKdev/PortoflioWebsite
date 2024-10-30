@@ -14,10 +14,9 @@ const MySkills = () => {
         {data?.skills?.map((item, index) => (
           <div key={index} className={classes.skillsSectionCard}>
             <img className={classes.skillsImg} src={item.src} alt="photo" />
-            <div className={classes.cardContent}>
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </div>
+
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
           </div>
         ))}
       </div>

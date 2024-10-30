@@ -13,7 +13,7 @@
       "description": "Knowledge of JavaScript core concepts involves understanding the foundational principles and features of the language that form the basis for building any JavaScript application."
     },
     {
-      "id": 2,
+      "id": 3,
       "src": "./img/git.png",
       "title": "Git/Github",
       "description": "Knowledge of version control system that allows multiple developers to track changes in source code during software development and cloud-based platform that hosts Git repositories and provides tools for collaboration, version control, and project management."
