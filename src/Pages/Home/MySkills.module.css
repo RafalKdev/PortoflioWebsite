@@ -1,6 +1,6 @@
 .skillsSection {
   text-align: center;
-  padding: 3.5rem;
+  padding: 3.5srem;
   margin: 2.5rem;
 }
 
@@ -13,25 +13,27 @@
 
 .skillsContainer {
   display: flex;
+  flex-direction: row;
   margin: 3rem;
-  padding: 4rem 3.5rem;
+  padding: 3rem 3.5srem;
 }
 .skillsSectionCard {
   width: 100%;
 }
-.cardContent {
+/* .cardContent {
   padding: 2rem;
   margin: 1rem;
-}
+} */
 
-.cardContent h3 {
+.skillsSectionCard h3 {
   font-size: 3rem;
   color: var(--secondary-color);
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
-.cardContent p {
-  font-size: 2rem;
+.skillsSectionCard p {
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
   color: var(--third-color);
 }
 
@@ -49,18 +51,41 @@
     margin-left: 10rem;
   }
   .skillsContainer {
-    margin-left: -1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18rem;
+    padding: 2rem 2rem;
+  }
+  .skillsSectionCard h3 {
+    font-size: 3.5rem;
+  }
+
+  .skillsSectionCard p {
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 576px) {
-  .skillsSectionCard {
-    margin: -2rem;
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18rem;
+    padding: 2rem 2rem;
   }
+
   .skillsHeaderTitle {
-    font-size: 6rem;
-    margin-left: 22rem;
+    font-size: 4rem;
+    margin-left: 16rem;
   }
+
+  .skillsSectionCard p {
+    text-align: center;
+    font-size: 2rem;
+  }
+  /* .cardContent {
+    background-color: red;
+    margin: 0 auto;
+  } */
   .cardContent p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }

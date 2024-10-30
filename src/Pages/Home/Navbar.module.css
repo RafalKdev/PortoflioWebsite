@@ -13,13 +13,15 @@
 }
 .logo {
   color: var(--secondary-color);
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .navbarLinks {
   display: flex;
+  margin-right: 10rem;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
+
 .navbarLinks a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -57,12 +59,11 @@
   .logo {
     display: none;
   }
+
   .navbarLinks a {
     line-height: 8rem;
-    margin-left: 6rem;
-    font-size: 6rem;
+    margin-left: 10rem;
+    font-size: 4rem;
     text-decoration: none;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--third-color);
   }
 }

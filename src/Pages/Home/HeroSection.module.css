@@ -81,9 +81,7 @@
   .heroSectionTitle {
     font-size: 4rem;
   }
-  .heroImg {
-    display: none;
-  }
+
   .heroButton {
     margin-right: 1.5rem;
     font-size: 2.5rem;
@@ -91,27 +89,22 @@
 }
 @media (max-width: 576px) {
   .heroSection {
-    margin-left: 15rem;
-  }
-  .heroSectionContent {
-    width: 100%;
-    margin-left: 0 auto;
+    margin-left: 13rem;
   }
 
   .heroSectionTitle {
-    font-size: 7rem;
-    text-transform: uppercase;
+    font-size: 6rem;
     font-weight: bold;
   }
   .heroSectionText {
-    font-size: 7rem;
+    font-size: 4rem;
     line-height: 7rem;
   }
   .heroSectionDescription {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   .heroButton {
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 4rem;
     padding: 1rem 7rem;
   }
