@@ -1,10 +1,3 @@
-.heroImg {
-  width: 40rem;
-  height: 55rem;
-  border-radius: 75px;
-  border: 35px solid var(--secondary-color);
-  margin-left: 15rem;
-}
 .heroSection {
   width: 100%;
   display: flex;
@@ -55,57 +48,4 @@
   font-size: 2.4rem;
   color: var(--third-color);
   margin-bottom: 2rem;
-}
-@media (max-width: 992px) {
-  .heroButton {
-    margin-bottom: 2rem;
-  }
-  .heroSection {
-    flex-direction: column;
-    text-align: center;
-  }
-  .heroImg {
-    width: 40rem;
-    height: 55rem;
-    border-radius: 75px;
-    border: 35px solid var(--secondary-color);
-    margin: 0 auto;
-  }
-}
-@media (max-width: 768px) {
-  .heroSection {
-    padding: 1rem;
-    margin: 0 auto;
-    margin-left: 8rem;
-  }
-  .heroSectionTitle {
-    font-size: 4rem;
-  }
-
-  .heroButton {
-    margin-right: 1.5rem;
-    font-size: 2.5rem;
-  }
-}
-@media (max-width: 576px) {
-  .heroSection {
-    margin-left: 13rem;
-  }
-
-  .heroSectionTitle {
-    font-size: 6rem;
-    font-weight: bold;
-  }
-  .heroSectionText {
-    font-size: 4rem;
-    line-height: 7rem;
-  }
-  .heroSectionDescription {
-    font-size: 3.5rem;
-  }
-  .heroButton {
-    font-size: 3rem;
-    line-height: 4rem;
-    padding: 1rem 7rem;
-  }
 }

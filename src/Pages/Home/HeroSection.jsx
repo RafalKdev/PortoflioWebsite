@@ -15,13 +15,6 @@ const HeroSection = () => {
         </div>
         <button className={classes.heroButton}>Get in Touch</button>
       </div>
-      <div className={classes.heroSectionImage}>
-        <img
-          className={classes.heroImg}
-          src="./img/rafal_jpg.PNG"
-          alt="Rafal Picture"
-        ></img>
-      </div>
     </section>
   );
 };
