@@ -1,15 +1,10 @@
 .heroSection {
-  width: 100%;
   display: flex;
   margin: 5rem 5rem;
   padding: 6rem;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
-.heroSectionContent {
-  margin-top: 5rem;
-}
-
 .heroButton {
   margin-top: 3rem;
   font-size: 1.6rem;
@@ -48,4 +43,15 @@
   font-size: 2.4rem;
   color: var(--third-color);
   margin-bottom: 2rem;
+}
+@media (max-width: 576px) {
+  .heroSectionTitle {
+    font-size: 3rem;
+  }
+  .heroSectionText {
+    font-size: 6rem;
+  }
+  .heroSectionDescription {
+    font-size: 2.8rem;
+  }
 }
