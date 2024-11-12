@@ -1,0 +1,42 @@
+.skillsSectionCard {
+  display: flex;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.skillsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.7rem;
+  text-align: center;
+}
+.skillsSectionTitle {
+  font-size: 3rem;
+  color: var(--third-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+svg {
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
+.skillsCardTitle {
+  font-size: 2.2rem;
+  color: var(--third-color);
+  margin: 1rem;
+}
+.skillsCardDescription {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  line-height: 2.5rem;
+}
+@media (max-width: 576px) {
+  .skillsSectionCard {
+    box-shadow: none;
+    flex-direction: column;
+    /* max-width: 85%; */
+  }
+  .skillsCard {
+    text-align: center;
+    align-items: center;
+  }
+}

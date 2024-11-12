@@ -2,21 +2,27 @@
   "skills": [
     {
       "id": 1,
-      "src": "./img/react.png",
+      "icon": "FaHtml5",
       "title": "Front-End",
-      "description": "Proficient in HTML, CSS, and JavaScript (React.js), with a strong emphasis on creating responsive and accessible user interfaces."
+      "description": "Proficient in HTML, CSS, and JavaScript, with a strong emphasis on creating responsive and accessible user interfaces."
     },
     {
       "id": 2,
-      "src": "./img/js.png",
+      "icon": "FaNodeJs",
       "title": "JavaScript",
       "description": "Knowledge of JavaScript core concepts involves understanding the foundational principles and features of the language that form the basis for building any JavaScript application."
     },
     {
       "id": 3,
-      "src": "./img/git.png",
+      "icon": "FaGithub",
       "title": "Git/Github",
-      "description": "Knowledge of version control system that allows multiple developers to track changes in source code during software development and cloud-based platform that hosts Git repositories and provides tools for collaboration, version control, and project management."
+      "description": "Knowledge of version control system that allows multiple developers to track changes in source code during software development and cloud-based platform that hosts Git"
+    },
+    {
+      "id": 4,
+      "icon": "FaReact",
+      "title": "React",
+      "description": "Knowledge of Core Concepts in React(Jsx,Components,Props,State and Hooks), With a focus on optimizing performance and enhancing user experience, Basic knwoledge APIs and Data Handling"
     }
   ]
 }
